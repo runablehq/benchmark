@@ -1,0 +1,16 @@
+{
+  "name": "benchmark_sandbox",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@daytonaio/sdk": "^0.22.1",
+    "@e2b/desktop": "^1.9.2"
+  }
+}
