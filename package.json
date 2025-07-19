@@ -7,9 +7,10 @@
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@blaxel/core": "^0.2.21",
     "@daytonaio/sdk": "^0.22.1",
     "@e2b/desktop": "^1.9.2"
   }

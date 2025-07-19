@@ -6,21 +6,15 @@
 ```
 🏁 Starting sandbox benchmark comparison...
 
-Starting E2B benchmark...
-Starting Daytona benchmark...
-[dotenv@17.2.0] injecting env (0) from .env (tip: ⚙️  override existing env vars with { override: true })
-[dotenv@17.2.0] injecting env (0) from .env.local (tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit)
-
-=== Sandbox Benchmark Results ===
-Provider  Sandbox        File           Total          Status
-----------------------------------------------------------------------
-E2B       2247.57ms      299.48ms       2547.06ms      ✅ Success
-Daytona   1727.43ms      686.49ms       2415.49ms      ✅ Success
-
-=== Performance Comparison ===
-🏆 Fastest overall: Daytona (2415.49ms)
-🚀 Fastest sandbox creation: Daytona (1727.43ms)
-📁 Fastest file creation: E2B (299.48ms)
+=== Sandbox Benchmark Results (1 runs each) ===
+Provider  Avg Sandbox    Avg File       Avg Total      Success   Std Dev
+--------------------------------------------------------------------------------
+E2B       3645.07ms      412.58ms       4057.65ms      100% (1/1)±0.00ms
+          (3645.07ms-3645.07ms) (412.58ms-412.58ms) (4057.65ms-4057.65ms)
+Daytona   1735.48ms      817.20ms       2557.49ms      100% (1/1)±0.00ms
+          (1735.48ms-1735.48ms) (817.20ms-817.20ms) (2557.49ms-2557.49ms)
+Blaxel    10231.41ms     7781.52ms      18012.93ms     100% (1/1)±0.00ms
+          (10231.41ms-10231.41ms) (7781.52ms-7781.52ms) (18012.93ms-18012.93ms)
 ```
 
 To install dependencies:
